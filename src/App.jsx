@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useCurrencyInfo from './hooks/useCurrencyinfo'
-import Input from "./Components/input";
+import Input from "./components/input";
 
 function App() {
   const [amount, setAmount] = useState(0)
